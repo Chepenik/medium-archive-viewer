@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Medium Archive Viewer
+
+This is a personal backup viewer for my Medium articles, ensuring my content is preserved and accessible in two places:
+1. [Medium.com](https://medium.com) - Primary platform
+2. This self-hosted archive - Secondary backup
+
+The application automatically syncs with my Medium profile to maintain an up-to-date archive of all published articles. Built with Next.js, it provides a clean, modern interface for browsing and reading my articles.
+
+## Features
+
+- Complete backup of Medium articles
+- Clean, responsive article viewer
+- Tag-based navigation
+- Search functionality
+- Markdown content support
 
 ## Getting Started
 
@@ -16,21 +30,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js](https://nextjs.org)
+- **Styling**: Tailwind CSS
+- **Content**: Markdown with Medium API integration
+- **Deployment**: Vercel
 
-## Learn More
+## Sync Process
 
-To learn more about Next.js, take a look at the following resources:
+The application includes a sync script (`syncMediumArchive.js`) that:
+1. Fetches articles from Medium's API
+2. Converts them to Markdown format
+3. Stores them locally with metadata
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Updates
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The archive is automatically updated whenever new content is published on Medium, ensuring this backup stays current.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed on [Vercel](https://vercel.com), providing a fast and reliable browsing experience.
+# medium-archive-viewer
