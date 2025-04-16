@@ -1,0 +1,16 @@
+{
+  "id": "71a0ebaf16a0",
+  "title": "Day 1005",
+  "createdAt": "2024-12-22 02:47:10",
+  "tags": [
+    "bitcoin",
+    "hal-finney",
+    "basechain"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1005-71a0ebaf16a0",
+  "content": "# Day 1005\n\n![Hal Finney Is The Goat 🐐 ](https://miro.medium.com/0*r-kYpagq1dhbMliy)\n\nIf you have ever made a transaction on Bitcoin's base layer, you are in a rare club. With around 8 billion people in the world, I suspect fewer than 5% will ever get to do so.\n\nMost people do not understand how Bitcoin works. They do not know the difference between public/private keys, seed phrases, how to broadcast a transaction, sign with a hardware wallet, or recover a hardware wallet if it is lost, bricked, or stolen.\n\nI work in the Bitcoin space, and there is still plenty I am trying to grasp. I have not read the Bitcoin Core code thoroughly, but I am damn grateful for the devs who have. I also run my own node so I don't have to trust someone else to broadcast my transactions.\n\nAs Bitcoin becomes as ubiquitous as fiat money, most will rely on sleek apps to use it. These platforms will quietly handle the technical details, often on a layer 2 or 3 rather than the main blockchain.\n\nToday, you can still interact with Bitcoin's base layer relatively easily if you want to. Adoption is early, and accepting BTC is not as difficult as you might think.\n\nI even built a simple website that takes Bitcoin payments for handwritten letters. If you want to ask me a question and get your answer in three quotes, it only costs 21,000 sats. Bitcoin is programmable money, which made building this website easy [https://quotestoansweryourquestions.replit.app/](https://quotestoansweryourquestions.replit.app/)\n\nI think Hal Finney was right. Not every transaction will be on the main chain. Banks might create their own digital cash redeemable for Bitcoin, and most people will trust those banks. But you do not have to. You can start small by downloading two wallets and sending yourself a transaction. That is where you see the power of permissionless money.\n\nEven the most devoted Bitcoiners will probably use Bitcoin banks someday, for example if they want to borrow against their Bitcoin. But having UTXOs on chain will become increasingly rare for most people.\n\nIt is also fun to send value around the world without anyone's permission. If you do not save some Bitcoin for your last name, your future generations may end up in a place where they still ask banks for permission to move their digital money, just like we do now with fiat.\n\nIt does not have to be that way. Learn about Bitcoin, experiment with it, and discover the freedom it offers. Human nature means some will try to control Bitcoin, but if you understand how it works and have some UTXOs on the base layer, they cannot stop you from transacting with it.\n\n12/21/24\n\nConor Jay Chepenik",
+  "wordCount": 444,
+  "readingTime": 1.8754716981132076,
+  "claps": 0,
+  "voters": 0
+}

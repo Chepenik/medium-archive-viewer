@@ -1,0 +1,18 @@
+{
+  "id": "b86bb528ed6c",
+  "title": "Day 1001",
+  "createdAt": "2024-12-18 04:56:35",
+  "tags": [
+    "hacker",
+    "mentatlity",
+    "for",
+    "the",
+    "win"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1001-b86bb528ed6c",
+  "content": "# Day 1001\n\nI am going to hack together a quick website on Replit to accept Payment for my hodlBlocks.\n\nTonight's writing will show how quickly one can hack this together. For context I used a couple of paid and free technologies to get this site live including Nostr.build, Replit, FormSubmit, and Gmail.\n\nFirst thing I did was give the Replit AI agent this prompt to build me a base.\n\n![](https://miro.medium.com/1*jO2GGz-D8PugqGleZQNq8A.png)\n\nThen it made a great starter page and I said this.\n\n![](https://miro.medium.com/1*1PUKI0JBFEn4jZCFIedTGQ.png)\n\nNext I went to formsubmit.co to make it easy to collect form data. I also asked the AI to price this for 9700 sats instead of $6.90. Make more sense to value this in bitcoin instead of fiat. I also decided the time required to take these to the post office and buy shipping makes around ~ten dollars worth of bitcoin (at this current moment in time) seem like a fair price to me. It's going up forever so maybe I will drop the price in sats one day. Time will tell.\n\n![[https://formsubmit.co/](https://formsubmit.co/)](https://miro.medium.com/1*Ca4-jUpGM0_O1Tsbhu5twg.png)\n\nI fed the FormSubmit docs to Replit's agent builder and included my email so my site knew where to send a submitted form. Boom we were in business and had a working form on our website. I then deployed the website after some nice proooompting to style the website as I liked and the website can be found here if you want to buy a hodl block: [https://hodlblocksbyconorchepenik.replit.app/](https://hodlblocksbyconorchepenik.replit.app/)\n\nI have a lot of work to do on this app, but it's live. You can officially buy hodl blocks from me and do so as a stranger. You will need a PO box, burner email, and some sats to do so. You also don't have to be an anon to buy. Just saying it's amazing that peer-to-peer money and the internet allowed me to build a website in one night and accept payment for 3D printed goods and my favorite quotes written down as hand written notes.\n\nWhat a freaking time to be alive right now. Bullish on the builders.\n\n12/17/24\n\nConor Jay Chepenik",
+  "wordCount": 347,
+  "readingTime": 1.859433962264151,
+  "claps": 0,
+  "voters": 0
+}

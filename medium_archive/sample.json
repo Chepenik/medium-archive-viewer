@@ -1,0 +1,8 @@
+{
+  "id": "sample",
+  "title": "Sample Medium Article",
+  "createdAt": "2024-04-15T00:00:00.000Z",
+  "tags": ["Programming", "Web Development"],
+  "url": "https://medium.com/@chepenikconor/sample",
+  "content": "# Sample Article\n\nThis is a sample article to test the frontend. We'll replace this with real Medium articles once we fix the API integration.\n\n## Features\n\n- Markdown support\n- Code highlighting\n- Tags display\n\n```javascript\nconsole.log('Hello, Medium!');\n```\n\nMore content will be added soon!"
+} 

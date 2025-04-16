@@ -1,0 +1,14 @@
+{
+  "id": "838457dc64b3",
+  "title": "Day 871",
+  "createdAt": "2024-08-10 03:06:41",
+  "tags": [
+    "saylorscope"
+  ],
+  "url": "https://chepenikconor.medium.com/day-871-838457dc64b3",
+  "content": "# Day 871\n\nToday, I've been more in tune with coding than writing, so I decided to channel my energy into improving SaylorScope! I cleaned up the UI, giving it a more polished and intuitive look. But what I'm really excited about is integrating AI functionality to make the tool even more powerful.\n\n![I am building a new website: [https://www.saylorscope.com/](https://www.saylorscope.com/)](https://miro.medium.com/1*NJpkCcPiuvco9-xRIXENEw.png)\n\nPicture this: A user clicks one of these AI buttons, and a modal pops up with a detailed estimate, letting them know, for instance, that their home could cost between $X-$Y per month to maintain. But that's just the beginning. The modal could also display engaging tidbits - such as maintenance tips or historical trivia - making the experience both informative and memorable.\n\nHere's the implementation strategy:\n\n1. **Seamless Backend Integration**: The AI buttons will be wired to a backend service that leverages an LLM. This model will analyze inputs like asset type, location, and other pertinent variables to deliver a precise range of maintenance costs. Additionally, it will draw from a vast pool of contextual data to enrich the user experience with relevant insights.\n\n2. **Dynamic Modal with Estimates and Insights**: Upon activation, the LLM will process the data, and a dynamic modal will present the estimated monthly cost. But the value doesn't stop there - the modal could also share useful insights or fun facts. For example, if the asset is a car, the modal might inform the user, \"Did you know? Regular tire rotation can extend the life of your tires by up to 20%.\"\n\n3. **Enhanced User Interaction**: To further elevate the experience, I'm considering implementing autofill features within the AI prompts. If a user enters an asset like a car, relevant details could auto-populate the LLM prompt, ensuring the output is as tailored and relevant as possible. This would allow the AI to deliver even more precise and powerful answers.\n\nBy integrating an LLM into the platform, SaylorScope will transcend beyond mere data provision. It will engage users with personalized, actionable insights, transforming their financial analysis experience into something far more dynamic and enriching.\n\nI'm thrilled about the potential of this feature to elevate SaylorScope into a truly advanced financial analysis tool, offering not just numbers, but deep, meaningful insights that add real value to users' decision-making processes. At least that is what I am hoping for! The code has been open sourced so please feel free to contribute if any fellow devs are reading :)\n\n8/9/24\n\nConor Jay Chepenik",
+  "wordCount": 407,
+  "readingTime": 1.7358490566037736,
+  "claps": 3,
+  "voters": 2
+}

@@ -1,0 +1,14 @@
+{
+  "id": "c9a22af526c5",
+  "title": "Day 1047",
+  "createdAt": "2025-02-02 03:56:36",
+  "tags": [
+    "bitcoin"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1047-c9a22af526c5",
+  "content": "# Day 1047\n\nWelp I got a new Mac today and it feels good. Money can't buy you long term happiness but it sure can buy you short term joy.\n\nHalf jokes aside... I'm excited to use this computer to build things. To run ai models locally on it. Test and iterate with on the internet.\n\nAnother thing I did today was read the Bitcoin White Paper I printed out. Feels really good to hold something in your hand and read it as compared with a PDF document. After reading such an excellent white paper I had two thoughts.\n\n![[https://x.com/ConorChepenik/status/1885894827457356143](https://x.com/ConorChepenik/status/1885894827457356143)](https://miro.medium.com/1*Sbc44dNLgp-qSyVcYGbB5w.png)\n\n![[https://x.com/ConorChepenik/status/1885885778997256560](https://x.com/ConorChepenik/status/1885885778997256560)](https://miro.medium.com/1*oRLDLBghpRYcIBAWTNEDDQ.png)\n\nHere is everything I underlined while reading tonight\n\n- **Bitcoin: A Peer-to Peer Electronic Cash System**\n\n- Completely non-reversible transactions are not really possible since financial institutions cannot avoid mediating disputes.\n\n- What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.\n\n- the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.\n\n- it is CPU time and electricity that is expended.\n\n- privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous.\n\n- As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner.\n\n- We have proposed a system for electronic transactions without relying on trust.\n\nThen I wrote Thank you Satoshi Nakamoto at the end because I am grateful for what he gave to the world. The man really woke up one day and decided you know what?!\n\n![](https://miro.medium.com/1*xzFJIPRqIkUCOBwQwcXehg.png)\n\nAnd indeed he did a thing that changed the world for the better by giving us sound money. Money that can't be debased at all. Perfectly fixed supply money.\n\n![[https://x.com/JonMayer5/status/1885553060547559797](https://x.com/JonMayer5/status/1885553060547559797)](https://miro.medium.com/1*mEJxiBDduZZ6sMovhV7smw.png)\n\nForever grateful.\n\n![](https://miro.medium.com/1*kquqRazySKyWNliSXqE3cw.png)\n\n2/1/25\n\nConor Jay Chepenik",
+  "wordCount": 310,
+  "readingTime": 2.00314465408805,
+  "claps": 0,
+  "voters": 0
+}
