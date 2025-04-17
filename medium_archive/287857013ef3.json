@@ -1,0 +1,18 @@
+{
+  "id": "287857013ef3",
+  "title": "Day 518",
+  "createdAt": "2023-08-23 00:46:31",
+  "tags": [
+    "bitcoin",
+    "lightning",
+    "progress",
+    "teaching",
+    "coding"
+  ],
+  "url": "https://chepenikconor.medium.com/day-518-287857013ef3",
+  "content": "# Day 518\n\n![Generated on firefly with prompt: \"a city layout but instead of roads the connections everywhere are lightning\"](https://miro.medium.com/1*7YE3vf-epTaR8SAHd18DIQ.png)\n\nI made a coding channel to help me continue on my developer journey. As they say the best way to learn something is to teach it. I actually had a lot of fun using Replit to build a recipe class which can be used to create recipes and show a user the instructions.\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNjmn1c9KBdA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNjmn1c9KBdA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNjmn1c9KBdA%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube\" title=\"\" height=\"480\" width=\"854\"></iframe>\n\nThe two recipes I created were for mimosas and Dr **** you ups. So maybe I should've called the class drinkMaker instead. Hahahaha anyways.... The two main languages I know are Java and Javascript so I plan on making more content focused on these technologies soon. I've been planning on revamping my website anyways so maybe that will be my next video. My goal with this channel is to become a master of using memes to convey coding ideas. One of the things I really appreciate about the [Fireship](https://fireship.io/) youtube channel is that the creator distills humor into all of his videos. If you are having fun with creating then it is likely you will continue to create.\n\nAnother thing I did today was open a lightning channel with my buddy Jon. This friend of mine loves Bitcoin as much as me. It feels amazing to have someone that I can chat with weekly and explore the network with. That sounds kind of funny to say but exploring the network is what we are doing. Before today the only way I had used lightning was through leveraging wallet software like Muun, Wallet Of Satoshi, and Alby. I had never opened a channel through my own node so that felt really empowering. I'm looking forward to learning & gaining a deeper understanding of how channels work and potentially using them for payments in the future.\n\nI used this website to help both Jon and I visualize the lightning network. It is a pretty incredible graphic do recommend checking out :D\n\n> [**Lightning Network Graph Visualization - LnRouter**](https://lnrouter.app/graph)\n\nOpening the channel was much easier than I expected. It took us about 3 calls to figure it out but the reason for that is first we had to wait for Jon's node to sync up with the network, then we had to wait for my node to sync up because it had been unplugged, and then we did it on the 3rd call.\n\nJust keep taking small steps forward and eventually good things will happen. Completing even tiny tasks is still progress. If you find what fascinates you and keep exploring you will be amazed at how much you learn over time by sticking with it. For me personally, I'm motivated now to keep tinkering with channels and see what else I can do peer-to-peer.\n\n8/22/23\n\nConor Jay Chepenik",
+  "wordCount": 469,
+  "readingTime": 1.969811320754717,
+  "claps": 0,
+  "voters": 0
+}

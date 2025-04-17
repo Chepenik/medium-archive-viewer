@@ -1,0 +1,18 @@
+{
+  "id": "bfd096259aec",
+  "title": "Day 526",
+  "createdAt": "2023-08-30 23:51:50",
+  "tags": [
+    "ai",
+    "data",
+    "value",
+    "defensible-business",
+    "staying-accountable"
+  ],
+  "url": "https://chepenikconor.medium.com/day-526-bfd096259aec",
+  "content": "# Day 526\n\nI recently watched a fascinating talk from Stanford about AI and how it can enable an abundant future. The biggest takeaway for me was that quality data in results in quality outcomes, while poor data leads to poor outcomes.\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F5p248yoa3oE%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5p248yoa3oE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5p248yoa3oE%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube\" title=\"\" height=\"480\" width=\"854\"></iframe>\n\nThis may seem obvious, but there's an important lesson here. You can build the most advanced AI systems, but if you don't have access to high-quality, relevant training data, the results will be lackluster. While there is plenty of data available online, businesses often need proprietary, industry-specific data not readily available. Therefore, thinking carefully about your own data collection and how to leverage it to train AI will become crucial.\n\nThe speaker gave the example of Lensa, which started as an impressive software allowing people to take photos of themselves and generate AI avatars. However, this was not a defensible business model, since the value came from APIs owned by others. Lensa just provided a nice front-end. This example illustrates the need for businesses to develop their own defendable data assets, rather than solely relying on third-party APIs.\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/SashaKaletsky/status/1610421803016503296%3Fs%3D20&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fabs.twimg.com%252Ferrors%252Flogo46x38.png%26key%3Da19fcc184b9711e1b4764040d3dc5c07\" title=\"\" height=\"281\" width=\"500\"></iframe>\n\nData is and will continue to be a critical strategic asset for training performant AI systems. Businesses should focus on acquiring and generating high-quality data tailored to their industry and use cases. With the right data collection frameworks in place, the possibilities for AI are abundant.\n\nOn another note I asked two more people on my podcast today. One is a legendary shitposter from Nostr and the other is a guy I met at Keg & Coin in Jacksonville because we were both rocking Bitcoin t-shirts. Feels good!\n\n8/30/23\n\nConor Jay Chepenik",
+  "wordCount": 277,
+  "readingTime": 1.0452830188679245,
+  "claps": 4,
+  "voters": 1
+}

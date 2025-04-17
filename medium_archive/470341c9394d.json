@@ -1,0 +1,18 @@
+{
+  "id": "470341c9394d",
+  "title": "Day 385",
+  "createdAt": "2023-04-12 01:26:22",
+  "tags": [
+    "france",
+    "china",
+    "nostr",
+    "react",
+    "software-engineers"
+  ],
+  "url": "https://chepenikconor.medium.com/day-385-470341c9394d",
+  "content": "# Day 385\n\nSo after some google proompting I came across this website.\n\n> [**7 Best Habit Tracking Apps You Need in 2023 - LifeHack**](https://www.lifehack.org/668261/best-habit-tracking-apps)\n\nSeems there are already some amazing habit tracking apps out there. GOOD! I need the competition. Love competing. Partial jokes aside, there is a lot of valuable things these platforms do which I can incorporate in Habit-Chain. I even asked chatGPT to build me a react app which uses the best of all these apps and it turned out to be a whole lesson in comp-sci.\n\nIt's great that web developers are building new stuff all the time but because chatGPT has data from 2021 and earlier a lot of the stuff it recommends seems to be from platforms and frameworks that have stopped being maintained. Seems this is the challenge of trying to teach software engineering. New stuff is popping up all the time and if you teach people one thing it can quickly become dated. That's alright though. Got to keep up with the times and you learn a lot in the process of trying to figure out why the hell something isn't working. Seriously I have figured out how to use both the command line much more efficiently and how to prompt better because of this. When I first started this journey I was taking a course that recommended Atom for a code editor. Now I'm on the VScode grind. I did like Atom but it stopped being maintained so it seemed like the right move to switch. Wonder if something will come along and replace VScode as a top code editor.\n\nI digress. I can't get this quote out of my head \"AI won't take people's jobs, but people using AI will.\" Might as well be one of said users of AI. If you can't beat em join em lol.\n\nOn another note this is a reminder to myself write tomorrow an edited piece for the MassAdoption print magazine. Or better yet re-edit the piece I've already written. I'm going to go and finish up my homework now and play more with this ultimate Habit-Chain app I am now more determined to build after seeing there is plenty of competition. LETS GO!\n\nOh snap before I go, check out the article I got published about Nostr.\n\n> [**Nostr Protocol Lets Users Earn Bitcoin For Content**](https://bitcoinnews.com/nostr-protocol-earn-bitcoin/)\n\nAlso tell me this video doesn't look like a weird montage for a new action movie about France and China lmao. These edits are sweet yes, but something I expect from the Government? Hell no. Homeboy has got riots going on in his country and this is what he posts hahahahahaha. Wild times we are living through anon!\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/EmmanuelMacron/status/1645328379984396288%3Fs%3D20&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fabs.twimg.com%252Ferrors%252Flogo46x38.png%26key%3Da19fcc184b9711e1b4764040d3dc5c07\" title=\"\" height=\"281\" width=\"500\"></iframe>\n\n4/11/23\n\nConor Jay Chepenik",
+  "wordCount": 498,
+  "readingTime": 1.879245283018868,
+  "claps": 2,
+  "voters": 1
+}

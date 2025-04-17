@@ -55,8 +55,8 @@ async function getAllArticles(userId) {
         // Add new articles to set to avoid duplicates
         articleIds.forEach(id => allIds.add(id));
         
-        // If we have the next token and haven't reached our target, continue
-        if (res.data.next && allIds.size < 50) {
+        // If we have the next token, continue fetching
+        if (res.data.next) {
           url = `${baseURL}/user/${userId}/articles?next=${res.data.next}`;
           // Add delay between requests
           await new Promise(resolve => setTimeout(resolve, 2000));

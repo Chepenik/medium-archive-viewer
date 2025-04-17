@@ -1,0 +1,16 @@
+{
+  "id": "1abb2b053bed",
+  "title": "Day 221",
+  "createdAt": "2022-10-29 16:12:22",
+  "tags": [
+    "football",
+    "friends",
+    "urbit"
+  ],
+  "url": "https://chepenikconor.medium.com/day-221-1abb2b053bed",
+  "content": "# Day 221\n\nLast night was awesome. Always great catching up with old friends and reminiscing about playing football in college. I'm grateful to have a wealth of friends from my athletic career and I'm also grateful that despite eleven years of football I don't have much brain or body damage from the beating that is playing football. It is a special sport but it's also a violent one. Football taught me many important lessons and helped me make some of my best friends today. It also gave me many Saturday and Sunday mornings where I woke up in great pain. Good pain though. I lowkey miss waking up after a football game sore as hell knowing I left it all out on the field.\n\nThis morning I walked with my girlfriend and buddy Q to get coffee at one of my favorite local shops in Cambridge. I started explaining Urbit to them and I realize I have a lot more research to do. It is easy to explain the current environment of we all have \"clients\" (think your laptop or your phone) that calls a server to get the data we see for whatever website or application we are using. It was also manageable to explain how Urbit does away with this old model by having everyone act as their own server and connecting in a peer-to-peer fashion rather than a client to server connection. That way when data is shared from your peers/ groups you follow you end up downloading it locally on your device rather than having data sent to an algorithm that filters it and sends it back to others based on what their data is telling the algorithm. What was harder to explain are the layers to Urbit like the moon, planet, comet, galaxy, and so forth.\n\nI decided to test out Urbit today which was super easy. You can do so [here](https://urbit.org/trial). Super clean UI and I appreciate that the screen isn't so cluttered. It is a bit overwhelming trying to figure out what groups to join but the journey of 1000 miles starts with a single step. I also love the fact Urbit has a Bitcoin wallet built in. This is what it looks like when you test out a free planet.\n\n![](https://miro.medium.com/1*QShJIGXN-4hDMIjXfx2ssQ.png)\n\nLike I said the interface is quite slick. I'm looking forward to spending more time going down this rabbit hole. For now I am going to go to the Tufts football game and hopefully watch my alma matter whoop the Hamilton Continentals.\n\n10/29/22\n\nConor Jay Chepenik",
+  "wordCount": 426,
+  "readingTime": 1.8075471698113208,
+  "claps": 0,
+  "voters": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a4390f0fd661",
+  "title": "Day 437",
+  "createdAt": "2023-06-02 17:54:26",
+  "tags": [
+    "bitcoin",
+    "ux",
+    "tftc",
+    "balaji",
+    "value4value"
+  ],
+  "url": "https://chepenikconor.medium.com/day-437-a4390f0fd661",
+  "content": "# Day 437\n\nToday I'm going to Pubkey in New York to meet up with the guy who runs bitcoinnews.com I'm super excited and Lee went ahead and made it an event on the orange pill app.\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/hyperfr33/status/1664624156577615872%3Fs%3D20&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fabs.twimg.com%252Ferrors%252Flogo46x38.png%26key%3Da19fcc184b9711e1b4764040d3dc5c07\" title=\"\" height=\"281\" width=\"500\"></iframe>\n\nHoping that Pubkey accept sats for beers, it is a bitcoin bar after all. Will report back about my experience mañana. I applied for the Product Lead position at Bitcoin News and after chatting with Lee I've been assigned some small UX tasks. The first one is how to improve the tipping feature.\n\n![](https://miro.medium.com/1*B12fDjsOO6OUY6H6KZyq5w.png)\n\nWhen you press either the red button or the gray bar you are redirected to the bottom of the page where you can go ahead and tip the author.\n\n![](https://miro.medium.com/1*0_JTVUoa1S7v1OstyI5Oig.png)\n\n![](https://miro.medium.com/1*dNZZt_xtKeD6zOpncj31Zw.png)\n\nI was thinking about ways to improve this UX last night and one feature that I thought might be cool is a slider inside of the gray bar. You could slide the amount you want to tip from 10 sats to 10k sats (or maybe more if the bitcoinnews teams wants a higher number). That way a user could be redirected and have less clicks to tip someone.\n\n![](https://miro.medium.com/1*CFlh5IHHKEOWvL5RjrBS8Q.png)\n\nThe end results would feature the 10 number much closer to the actual slider bar and include sats next to the number value. I feel like that would be a cool way to just auto populate the amount which means less clicks. Less clicks usually means higher conversion rates.\n\nAnother thing I'd like to see is after someone is tipped having a lightning animation like this. Rough sketches but I got this idea from [stacker.news](https://stacker.news/r/Chep)\n\n![](https://miro.medium.com/1*GKzKjwkBCoAgdysbn1VcLw.jpeg)\n\n![](https://miro.medium.com/1*aVCBVuCfoIiDTpc2KXAXHg.png)\n\nThe lightning tips are a cool animation to keep people motivated to tip others. I know I've tipped more on Stacker News because I enjoy seeing the lightning bolts.\n\nAnyways, I enjoyed playing around with UX design this morning. The idea for the slider bar came to be right before I fell asleep. Shout out my tired brain for working in the background. This morning I crushed a hill run and listened to this fantastic (and quite long rip) with Balaji and Marty.\n\n<iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F75GMZWFnyeI%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D75GMZWFnyeI&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F75GMZWFnyeI%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube\" title=\"\" height=\"480\" width=\"854\"></iframe>\n\nNow I'm pumped to go hang with some Bitcoiners tonight. Life is good BB\n\n![](https://miro.medium.com/0*tdwrrKY2SZF--kDF)\n\n6/2/23\n\nConor Jay Chepenik",
+  "wordCount": 362,
+  "readingTime": 2.4160377358490566,
+  "claps": 0,
+  "voters": 0
+}
