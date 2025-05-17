@@ -1,54 +1,50 @@
-# Medium Archive Viewer
+# 📰 Medium Archive: Personal Blog Backup
 
-This is a personal backup viewer for my Medium articles, ensuring my content is preserved and accessible in two places:
-1. [Medium.com](https://medium.com) - Primary platform
-2. This self-hosted archive - Secondary backup
+Welcome to the local archive of my [Medium](https://medium.com/@chepenikconor) writings — a personal initiative to preserve my work outside of any platform’s control.
 
-The application automatically syncs with my Medium profile to maintain an up-to-date archive of all published articles. Built with Next.js, it provides a clean, modern interface for browsing and reading my articles.
+## 🧠 Why This Exists
 
-## Features
+As someone who's written consistently on Medium, I began to realize the risk of having all my content in one place. Platforms come and go. Servers crash. Policies change.
 
-- Complete backup of Medium articles
-- Clean, responsive article viewer
-- Tag-based navigation
-- Search functionality
-- Markdown content support
+This archive ensures that even if Medium goes offline tomorrow, my thoughts, reflections, and essays will live on both here in github, as well as on my personal machine in a format I control.
 
-## Getting Started
+## 🗃️ What's Included
 
-First, run the development server:
+- ✅ **Full archive** of my Medium articles in a clean, browsable format  
+- 🔎 **Search functionality** to quickly find specific posts or keywords  
+- 📅 **Metadata** like publish date, estimated read time, and claps  
+- 📄 **Raw content** stored in its original form (Markdown / JSON)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧰 The Tech Behind It
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This site is powered by a custom script and lightweight frontend. Here’s what’s happening under the hood:
 
-## Technology Stack
+- **Node.js script** pulls my articles using the [Unofficial Medium API](https://mediumapi.com)
+- **Fetches my Medium user ID** based on my profile handle
+- **Retrieves all article IDs**, paginating through my full history
+- **Downloads metadata and full content** for each post
+- **Stores everything in structured JSON files** in the `/public/archive/` folder
+- **Renders articles** in a simple Next.js interface
 
-- **Framework**: [Next.js](https://nextjs.org)
-- **Styling**: Tailwind CSS
-- **Content**: Markdown with Medium API integration
-- **Deployment**: Vercel
+All of this was developed with the help of AI tools and a love for open information.
 
-## Sync Process
+## 🔁 Keeping It Updated
 
-The application includes a sync script (`syncMediumArchive.js`) that:
-1. Fetches articles from Medium's API
-2. Converts them to Markdown format
-3. Stores them locally with metadata
+The script is designed to be re-run periodically, fetching any new articles I publish and appending them to the archive.
 
-## Updates
+- Manual sync: `node syncMediumArchive.js`
+- (Optional) I could add a cron job or GitHub Action to automate daily or weekly syncs and maybe I will one day.
 
-The archive is automatically updated whenever new content is published on Medium, ensuring this backup stays current.
+## 🤝 Special Thanks
 
-## Deployment
+Big thanks to the developers behind the [Unofficial Medium API](https://mediumapi.com/documentation.html) for making this project possible.
 
-This project is deployed on [Vercel](https://vercel.com), providing a fast and reliable browsing experience.
-# medium-archive-viewer
+---
+
+> ⚠️ Note: This project is personal, but it’s also a signal — you don’t need permission to own your words.
+
+---
+
+### 📬 Contact
+
+Feel free to reach out or explore more of my writing here or at [medium.com/@chepenikconor](https://medium.com/@chepenikconor)

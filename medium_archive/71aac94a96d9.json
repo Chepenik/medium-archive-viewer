@@ -1,0 +1,18 @@
+{
+  "id": "71aac94a96d9",
+  "title": "Day 1143",
+  "createdAt": "2025-05-09 02:50:49",
+  "tags": [
+    "btc",
+    "s-p-500-index",
+    "correlation",
+    "risk",
+    "volatility"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1143-71aac94a96d9",
+  "content": "# Day 1143\n\nBitcoin vs S&P 500 - past 365 days. Normalized performance and rolling correlation tell a nice story. Let's talk volatility, decoupling, and why the ones who stomach the chaos are the ones who win.\n\n👇\n\n![](https://miro.medium.com/0*8TDLAF2_7MoLAcfg)\n\nIn summer '24, Bitcoin lagged the S&P But in Q4, BTC went from ~90 to over 160 A 70% gain while the S&P cruised up 10–15% This is what \"asymmetric upside\" looks like. Volatility is not a bug... It's a feature of perfect money monetizing itself for the first time.\n\nThis is why most people underperform: They confuse volatility for risk. Volatility is emotional discomfort. Risk is not having enough Bitcoin when it matters. One feels bad. **The other is bad.**\n\nIf you're close to retirement, and have not studied what money is then yes stick with stocks, bonds, & real estate so you don't paper hands the pico bottom. But if you're young, liquid, and not made of soy? → Stack BTC → Buy the dips → Zoom out → Enjoy when it rips\n\n![](https://miro.medium.com/0*O2ZbrKWjuGECqBFk)\n\nYou don't need a PhD to win. (In fact, if you've got one, you might mid-curve this.) You need balls. Bitcoin dumps? Good. Red days are entry points. Not exit plans. Stack like your future, and your kids' future, depends on it. Because it does.\n\n![](https://miro.medium.com/0*6GQg_NFTcutntgRR)\n\nIf you want to recreate the charts yourself, here's the exact notebook I used:\n\nGoogle Colab: [https://colab.research.google.com/drive/1VNjERqyEGe76Dovu8kt4Na7y1Hxx2lPJ?usp=sharing](https://colab.research.google.com/drive/1VNjERqyEGe76Dovu8kt4Na7y1Hxx2lPJ?usp=sharing)\n\nExplore it. Fork it. Remix it. And if this Medium sparked something in you - keep going. Understanding Bitcoin changed my life. I hope it changes yours too.\n\nNone of this is financial advice. Do your own research (into Bitcoin) :)\n\n5/8/25\n\nConor Jay Chepenik",
+  "wordCount": 280,
+  "readingTime": 1.6066037735849057,
+  "claps": 0,
+  "voters": 0
+}
