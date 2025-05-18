@@ -111,22 +111,6 @@ export default function Home() {
                       d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
-            <div className="flex gap-2 overflow-x-auto pb-2">
-              {allTags.map(tag => (
-                <button
-                  key={tag}
-                  onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
-                  className={`px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap
-                            transition-all duration-200 ${
-                              selectedTag === tag
-                                ? 'bg-blue-500 text-white'
-                                : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                            }`}
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
           </div>
         </div>
       </header>

@@ -1,6 +1,6 @@
 # 📰 Medium Archive: Personal Blog Backup
 
-Welcome to the local archive of my [Medium](https://medium.com/@chepenikconor) writings — a personal initiative to preserve my work outside of any platform’s control.
+Welcome to the local archive of my [Medium](https://medium.com/@chepenikconor) writings — a personal initiative to preserve my work outside of any platform's control.
 
 ## 🧠 Why This Exists
 
@@ -17,7 +17,7 @@ This archive ensures that even if Medium goes offline tomorrow, my thoughts, ref
 
 ## 🧰 The Tech Behind It
 
-This site is powered by a custom script and lightweight frontend. Here’s what’s happening under the hood:
+This site is powered by a custom script and lightweight frontend. Here's what's happening under the hood:
 
 - **Node.js script** pulls my articles using the [Unofficial Medium API](https://mediumapi.com)
 - **Fetches my Medium user ID** based on my profile handle
@@ -41,10 +41,10 @@ Big thanks to the developers behind the [Unofficial Medium API](https://mediumap
 
 ---
 
-> ⚠️ Note: This project is personal, but it’s also a signal — you don’t need permission to own your words.
+> ⚠️ Note: This project is personal, but it's also a signal — you don't need permission to own your words.
 
 ---
 
-### 📬 Contact
+## 📬 Contact
 
-Feel free to reach out or explore more of my writing here or at [medium.com/@chepenikconor](https://medium.com/@chepenikconor)
+If you want to reach out, DM me on X: [x.com/conorchepenik](https://x.com/conorchepenik)
