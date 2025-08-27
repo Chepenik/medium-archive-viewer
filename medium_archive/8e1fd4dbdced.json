@@ -1,0 +1,14 @@
+{
+  "id": "8e1fd4dbdced",
+  "title": "Day 1188",
+  "createdAt": "2025-06-23 03:33:31",
+  "tags": [
+    "leverage"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1188-8e1fd4dbdced",
+  "content": "# Day 1188\n\nJust built this in Cursor pure vibe coding.\n\n![](https://miro.medium.com/1*zF6U6v3MJWBddOcEGwEZaw.png)\n\nI can't stop thinking about how English is the new programming language.\n\nWe write software for two audiences now: human and machine. Our users are bots.\n\nThis requires a new layer of semantic scaffolding. An `llm.json` file in the application root, describing its purpose, its logic, its inputs and outputs. A crawler that doesn't just index, but interprets.\n\nWhat helps the machine helps the person.\n\nClean structure, clear labels, and descriptive buttons are no longer just matters of accessibility. They are the difference between a bot that hallucinates and a bot that helps.\n\nThis future requires a new set of standards.\n\n**Agent-aware design.** Like ARIA roles, but for intent. Not just what a `<div>` _is_, but what a `<form>` is _for_. What success looks like.\n\n**Self-describing APIs.** Intent should not be buried in documentation. It should live in the footer: \"This button triggers a POST to `/create-task` with the following schema.\"\n\n**A shared vocabulary.** Natural language is inconsistent. A button might read \"Post,\" \"Submit,\" or \"Share.\" Machines require a schema for action, a dictionary for intent.\n\n**Collaborative tools.** Development tools will not just complete code; they will explain it. \"This function is broken. The logic assumes a unique user ID, but the input allows duplicates. I can enforce validation. Should I proceed?\"\n\n**An emphasis on intent.** We will teach programming by asking, \"What do you want to build?\" That question is no longer a wish; it is a functional starting point.\n\nThis is how intelligence scales...not by forcing everyone to code, but by making human intent machine-readable.\n\nThe promise of the web was always connection. AI is the universal translator.\n\nFuture literacy is not learning to code.\n\nIt is learning to instruct.\n\nTo describe.\n\nTo collaborate with machines that now read between our lines.\n\n![](https://miro.medium.com/1*JRHtlFc6lttC5T9PFeN6Gg.png)\n\n6/22/25\n\nConor Jay Chepenik",
+  "wordCount": 312,
+  "readingTime": 1.560691823899371,
+  "claps": 0,
+  "voters": 0
+}
