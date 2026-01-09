@@ -39,3 +39,29 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Hugging Face datasets
+my_medium_dataset_all/
+medium_preview.jsonl
+
+# Training outputs (models, checkpoints, gguf files)
+my_personal_ai*/
+*.gguf
+
+# External tools (can be re-cloned as needed)
+llama.cpp/
+
+# Jupyter notebooks checkpoints (if you ever use them)
+.ipynb_checkpoints/
