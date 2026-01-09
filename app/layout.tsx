@@ -1,16 +1,64 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Literata, Fraunces } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 
-const inter = Inter({
+const literata = Literata({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-literata",
+  display: "swap",
+});
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Medium Archive",
-  description: "Personal backup of Medium articles",
+  title: {
+    default: "Chep's Blog",
+    template: "%s | Chep's Blog",
+  },
+  description: "A personal writing archive by Conor Chepenik. I've decided to write everyday for the rest of my life or until Medium goes out of business.",
+  keywords: ["blog", "writing", "Conor Chepenik", "personal archive", "daily writing", "bitcoin", "life", "essays"],
+  authors: [{ name: "Conor Chepenik" }],
+  creator: "Conor Chepenik",
+  publisher: "Conor Chepenik",
+  metadataBase: new URL("https://chepsblog.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Chep's Blog",
+    title: "Chep's Blog",
+    description: "A personal writing archive by Conor Chepenik. Daily writing until Medium goes out of business.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chep's Blog",
+    description: "A personal writing archive by Conor Chepenik. Daily writing until Medium goes out of business.",
+    creator: "@conaboricua",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fdfbf7" },
+    { media: "(prefers-color-scheme: dark)", color: "#171412" },
+  ],
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -19,13 +67,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${literata.variable} ${fraunces.variable}`}>
       <head />
-      <body className={`${inter.variable} antialiased`}>
+      <body className="antialiased">
         <Providers>
-          <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
-            {children}
-          </div>
+          {children}
         </Providers>
       </body>
     </html>

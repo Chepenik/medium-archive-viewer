@@ -3,32 +3,229 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply transition-colors duration-200;
-  }
-}
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Warm cream palette - light mode */
+    --color-bg: 253 251 247;
+    --color-bg-secondary: 247 243 235;
+    --color-bg-tertiary: 255 255 255;
+    --color-text: 41 37 36;
+    --color-text-secondary: 120 113 108;
+    --color-text-muted: 168 162 158;
+    --color-border: 214 211 209;
+    /* Orange/Gold gradient colors */
+    --color-accent: 234 88 12;
+    --color-accent-hover: 249 115 22;
+    --color-gold: 245 158 11;
+    --color-orange: 234 88 12;
+
+    /* Typography */
+    --font-body: var(--font-literata), Georgia, 'Times New Roman', serif;
+    --font-heading: var(--font-fraunces), Georgia, serif;
+  }
+
+  .dark {
+    /* Deep warm charcoal - dark mode */
+    --color-bg: 23 20 18;
+    --color-bg-secondary: 32 28 25;
+    --color-bg-tertiary: 45 40 36;
+    --color-text: 250 247 242;
+    --color-text-secondary: 180 175 168;
+    --color-text-muted: 130 125 118;
+    --color-border: 55 50 45;
+    /* Orange/Gold gradient colors */
+    --color-accent: 251 146 60;
+    --color-accent-hover: 253 186 116;
+    --color-gold: 251 191 36;
+    --color-orange: 251 146 60;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: rgb(var(--color-bg));
+    color: rgb(var(--color-text));
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings use Fraunces */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+  }
+
+  /* Custom selection color */
+  ::selection {
+    background-color: rgb(var(--color-accent) / 0.2);
+    color: rgb(var(--color-text));
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--color-bg-secondary));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-border));
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-text-muted));
+  }
+
+  /* Focus styles */
+  *:focus-visible {
+    outline: 2px solid rgb(var(--color-accent));
+    outline-offset: 2px;
   }
 }
 
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Article prose styling */
+  .prose-archive {
+    --tw-prose-body: rgb(var(--color-text));
+    --tw-prose-headings: rgb(var(--color-text));
+    --tw-prose-links: rgb(var(--color-accent));
+    --tw-prose-bold: rgb(var(--color-text));
+    --tw-prose-quotes: rgb(var(--color-text-secondary));
+    --tw-prose-quote-borders: rgb(var(--color-accent));
+    --tw-prose-code: rgb(var(--color-text));
+    --tw-prose-pre-bg: rgb(var(--color-bg-secondary));
+    --tw-prose-pre-code: rgb(var(--color-text));
+    --tw-prose-hr: rgb(var(--color-border));
+  }
+
+  .prose-archive h1,
+  .prose-archive h2,
+  .prose-archive h3,
+  .prose-archive h4 {
+    font-family: var(--font-heading);
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+  }
+
+  .prose-archive p {
+    margin-bottom: 1.5em;
+  }
+
+  .prose-archive blockquote {
+    border-left: 3px solid rgb(var(--color-accent));
+    padding-left: 1.5em;
+    font-style: italic;
+    color: rgb(var(--color-text-secondary));
+  }
+
+  .prose-archive a {
+    color: rgb(var(--color-accent));
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+  }
+
+  .prose-archive a:hover {
+    color: rgb(var(--color-accent-hover));
+  }
+
+  .prose-archive code {
+    background: rgb(var(--color-bg-secondary));
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  .prose-archive pre {
+    background: rgb(var(--color-bg-secondary));
+    padding: 1.5em;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+
+  .prose-archive img {
+    border-radius: 8px;
+    margin: 2em auto;
+  }
+
+  /* Subtle paper texture overlay */
+  .paper-texture {
+    position: relative;
+  }
+
+  .paper-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  /* Utility for accent color */
+  .text-accent {
+    color: rgb(var(--color-accent));
+  }
+
+  .text-accent-hover:hover {
+    color: rgb(var(--color-accent-hover));
+  }
+
+  .bg-accent {
+    background-color: rgb(var(--color-accent));
+  }
+
+  .border-accent {
+    border-color: rgb(var(--color-accent));
+  }
+
+  /* Reading width constraint */
+  .reading-width {
+    max-width: 68ch;
+  }
+
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  /* Stagger children animation */
+  .stagger-children > * {
+    opacity: 0;
+    animation: fadeIn 0.4s ease-out forwards;
+  }
+
+  .stagger-children > *:nth-child(1) { animation-delay: 0.05s; }
+  .stagger-children > *:nth-child(2) { animation-delay: 0.1s; }
+  .stagger-children > *:nth-child(3) { animation-delay: 0.15s; }
+  .stagger-children > *:nth-child(4) { animation-delay: 0.2s; }
+  .stagger-children > *:nth-child(5) { animation-delay: 0.25s; }
+  .stagger-children > *:nth-child(6) { animation-delay: 0.3s; }
+  .stagger-children > *:nth-child(7) { animation-delay: 0.35s; }
+  .stagger-children > *:nth-child(8) { animation-delay: 0.4s; }
+  .stagger-children > *:nth-child(9) { animation-delay: 0.45s; }
+  .stagger-children > *:nth-child(10) { animation-delay: 0.5s; }
 }

@@ -20,10 +20,11 @@ function findArticle(articleId: string): string | null {
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const filePath = findArticle(params.id);
+    const { id } = await params;
+    const filePath = findArticle(id);
 
     if (!filePath) {
       return NextResponse.json({ error: 'Article not found' }, { status: 404 });
@@ -40,4 +41,4 @@ export async function GET(
       { status: 500 }
     );
   }
-} 
+}

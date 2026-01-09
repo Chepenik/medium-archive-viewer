@@ -1,0 +1,14 @@
+{
+  "id": "ead33fed4ff1",
+  "title": "Day 1374",
+  "createdAt": "2025-12-25 22:40:45",
+  "tags": [
+    "ai"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1374-ead33fed4ff1",
+  "content": "# Day 1374\n\nLast night I had chatGPT run some deep research on apps I could build that I'd be able to sell easily as a SaaS product. If anyone is interested in the report you can find it here: [https://chatgpt.com/share/694daa23-2e08-8009-bcb7-ba24fa0d6492](https://chatgpt.com/share/694daa23-2e08-8009-bcb7-ba24fa0d6492)\n\nIt took me less than 30 minutes of prompting Antigravity, Google's free Cursor clone, to make me a real estate app: [https://realestategenerator-one.vercel.app/](https://realestategenerator-one.vercel.app/)\n\nIt needs work, but kind of insane it just works. It can search the web then use AI to generate legit property descriptions for realtors. All with english. Yes, knowing how to code is helpful for the basics, but other than pasting in some API keys I really didn't touch the code. Just talked to the AI in english and told it what I want.\n\nRead this article today that made the point AI progress is accelerating relentlessly, predicting that by the summer those at frontier labs will have a very different experience of the progress achieved vs the average person. The irony being most of the change will happen in the silicone and digital world so it will be hard to see. We don't currently see drones everywhere and most cars being driverless. Sure that might come, but by this summer I still don't think it will be the norm to see that everywhere.\n\n![[https://x.com/jackclarkSF/status/2003526145380151614](https://x.com/jackclarkSF/status/2003526145380151614)](https://miro.medium.com/1*cjO69o39WT_Bepq2jPRGpg.png)\n\nIt resonated because I'm not at a frontier lab but using these things for image generation, code creation, and music making is blowing my mind. Whenever I show most people AI songs I've made they ask what artist is this. Conor Chepenik on Suno is the answer hahah. Well by this summer I'm sure I'll be fooled if someone showed me AI generated music and said {Insert Famous Artist} made this.\n\nThe world is changing. Strap in.\n\n12/25/25\n\nConor Jay Chepenik",
+  "wordCount": 303,
+  "readingTime": 1.3433962264150943,
+  "claps": 0,
+  "voters": 0
+}

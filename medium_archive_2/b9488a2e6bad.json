@@ -1,0 +1,18 @@
+{
+  "id": "b9488a2e6bad",
+  "title": "Day 1306",
+  "createdAt": "2025-10-19 03:05:11",
+  "tags": [
+    "self-custody",
+    "bitcoin",
+    "solutions",
+    "learn",
+    "them"
+  ],
+  "url": "https://chepenikconor.medium.com/day-1306-b9488a2e6bad",
+  "content": "# Day 1306\n\nI went down a bit of a steel plate rabbit hole today:\n\n![[https://x.com/ConorChepenik/status/1979583636241543473](https://x.com/ConorChepenik/status/1979583636241543473)](https://miro.medium.com/1*QOvRPoN_OxYQNpqltYQc8A.png)\n\n![[https://x.com/ConorChepenik/status/1979586703607099412](https://x.com/ConorChepenik/status/1979586703607099412)](https://miro.medium.com/1*7biICNe5QRiCr3dZzmPTiQ.png)\n\n![[https://x.com/ConorChepenik/status/1979610689959555159](https://x.com/ConorChepenik/status/1979610689959555159)](https://miro.medium.com/1*RaJm5Q8ZgsVNkbVRQ928vA.png)\n\nI have not posted it on Twitter yet, but I also went and bought some washers to test this stuff on different metals. If you run single-sig wallets, stamp your seed phrase on metal. It's non-negotiable and as you can see via my tweets above you can roll your own solution for less than 10 dollars assuming you have an old nail. Paper is a joke: one spark, one spill, or one bored toddler, and poof, your backup's toast. Should you want to risk having your seed phrases on paper, well at least make two backups and store them securely and away from small children lol.\n\nFor serious Bitcoin in self-custody, though, I'd suggest most people go with geographically distributed multisig. It's the sweet spot of self-custody. Spread keys across locations to kill single points of failure. It slashes risks like the $5 wrench attack, where some goon beats your passphrase out of you. Plus, lose one key? No sweat. Rebuild from the rest.\n\nNot super technical? Start with [Swan Vault](https://swan.com/vault). It's collaborative custody: you hold two keys, they hold one. You keep full control, but they've got your back if you fat-finger something or lose a key somehow.\n\nSteel backups amp this up big time. Metal scoffs at fire, floods, and rot, threats that shred paper in a heartbeat. My toddler could turn my seed phrases into modern art (read: trash) in less than a minute if I didn't hide them in secure offsite locations. Now to be fair, Multisig dodges total wipeouts from a single lost phrase, sure. But steel adds that extra armor. Why chance it? Don't slack off when securing generational wealth. Steel will endure for generations, paper not so much.\n\nBottom line: Distribution tackles the messy human and location stuff. Steel owns the physical threats. Layer them, and you've got zero single points of failure.\n\nI am constantly thinking through how I can continue to increase my op-sec, improve my self custody protocols, and feel confident that I teach my family how to pass this wealth down for generations to come.\n\nIf you're lucky enough to be in America it also helps to own a gun and know how to use it. Yes, you should keep your keys outside of your home, but good luck explaining to a bad actor with a wrench \"actually, it's a 2-of-3 setup\" mid-robbery. Spoiler: That plan will flop harder than a fiat crash. A well-placed self-defense shot? That's the real op-sec closer.\n\nYes that was a bit tongue in cheek, but jokes aside, my fellow Bitcoiners, this last part might be more important than putting your seed phrases on steel. Your family's generational wealth demands you level up, no half-measures.\n\nI hope this guide offers some help because financial sovereignty comes with great responsibility, but it is well worth it in the end.\n\nCheers! :)\n\n10/18/25\n\nConor Jay Chepenik",
+  "wordCount": 507,
+  "readingTime": 2.4632075471698114,
+  "claps": 0,
+  "voters": 0
+}
