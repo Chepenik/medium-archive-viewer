@@ -1,50 +1,60 @@
-# 📰 Medium Archive: Personal Blog Backup
+# Chep's Blog - Medium Archive
 
-Welcome to the local archive of my [Medium](https://medium.com/@chepenikconor) writings — a personal initiative to preserve my work outside of any platform's control.
+A personal archive of 1,400+ articles from my [Medium](https://medium.com/@chepenikconor) writing journey.
 
-## 🧠 Why This Exists
+**Live site:** [chepenik.com](https://chepenik.com)
 
-As someone who's written consistently on Medium, I began to realize the risk of having all my content in one place. Platforms come and go. Servers crash. Policies change.
+## Why This Exists
 
-This archive ensures that even if Medium goes offline tomorrow, my thoughts, reflections, and essays will live on both here in github, as well as on my personal machine in a format I control.
+I made a commitment to write every day for the rest of my life, or until Medium goes out of business. After years of keeping that promise, I built this archive as a backup and a digital legacy.
 
-## 🗃️ What's Included
+Platforms come and go. Servers crash. Policies change. This archive ensures my thoughts live on in a format I control.
 
-- ✅ **Full archive** of my Medium articles in a clean, browsable format  
-- 🔎 **Search functionality** to quickly find specific posts or keywords  
-- 📅 **Metadata** like publish date, estimated read time, and claps  
-- 📄 **Raw content** stored in its original form (Markdown / JSON)  
+## About the Live Site
 
-## 🧰 The Tech Behind It
+Due to the large number of articles (1,400+), the live site loads **20 articles at a time** for performance. Click "Load More" to see additional articles.
 
-This site is powered by a custom script and lightweight frontend. Here's what's happening under the hood:
+**Want to browse all articles?** Clone this repo and run it locally:
 
-- **Node.js script** pulls my articles using the [Unofficial Medium API](https://mediumapi.com)
-- **Fetches my Medium user ID** based on my profile handle
-- **Retrieves all article IDs**, paginating through my full history
-- **Downloads metadata and full content** for each post
-- **Stores everything in structured JSON files** in the `/public/archive/` folder
-- **Renders articles** in a simple Next.js interface
+```bash
+git clone https://github.com/Chepenik/medium-archive-viewer.git
+cd medium-archive-viewer
+npm install
+npm run dev
+```
 
-All of this was developed with the help of AI tools and a love for open information.
+Then visit `http://localhost:3000`
 
-## 🔁 Keeping It Updated
+## What's Included
 
-The script is designed to be re-run periodically, fetching any new articles I publish and appending them to the archive.
+- Full archive of 1,400+ Medium articles
+- Search functionality to find specific posts
+- Metadata: publish date, reading time, tags
+- Raw content stored in JSON format
 
-- Manual sync: `node syncMediumArchive.js`
-- (Optional) I could add a cron job or GitHub Action to automate daily or weekly syncs and maybe I will one day.
+## Tech Stack
 
-## 🤝 Special Thanks
+- **Next.js 16** - React framework
+- **Tailwind CSS** - Styling
+- **Node.js sync script** - Pulls articles via [Unofficial Medium API](https://mediumapi.com)
 
-Big thanks to the developers behind the [Unofficial Medium API](https://mediumapi.com/documentation.html) for making this project possible.
+## Keeping It Updated
+
+The sync script fetches new articles I publish:
+
+```bash
+node syncMediumArchive.js
+```
+
+## Folder Structure
+
+Articles are organized in `medium_archive_1/` and `medium_archive_2/` folders (max 900 files per folder for GitHub compatibility).
+
+## Contact
+
+- X/Twitter: [@ConorChepenik](https://x.com/ConorChepenik)
+- LinkedIn: [conorchepenik](https://www.linkedin.com/in/conorchepenik/)
 
 ---
 
-> ⚠️ Note: This project is personal, but it's also a signal — you don't need permission to own your words.
-
----
-
-## 📬 Contact
-
-If you want to reach out, DM me on X: [x.com/conorchepenik](https://x.com/conorchepenik)
+> You don't need permission to own your words.

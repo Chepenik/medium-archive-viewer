@@ -1,6 +1,12 @@
 import { NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+
+// Cache for article metadata (excludes content for performance)
+let cachedArticles: any[] | null = null;
+let cacheTimestamp: number = 0;
+const CACHE_TTL = 60 * 1000; // 1 minute cache
 
 // Find all medium_archive_* folders
 function getArchiveFolders(): string[] {
@@ -12,33 +18,68 @@ function getArchiveFolders(): string[] {
     .filter(folderPath => fs.statSync(folderPath).isDirectory());
 }
 
-export async function GET() {
-  try {
-    const archiveFolders = getArchiveFolders();
+// Load all articles (with caching)
+function loadArticles(): any[] {
+  const now = Date.now();
 
-    if (archiveFolders.length === 0) {
-      return NextResponse.json({ error: 'No articles found' }, { status: 404 });
-    }
+  if (cachedArticles && (now - cacheTimestamp) < CACHE_TTL) {
+    return cachedArticles;
+  }
 
-    const articles: any[] = [];
+  const archiveFolders = getArchiveFolders();
+  const articles: any[] = [];
 
-    for (const dataDir of archiveFolders) {
-      const files = fs.readdirSync(dataDir);
-      for (const file of files) {
-        if (file.endsWith('.json')) {
-          try {
-            const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-            articles.push(JSON.parse(content));
-          } catch (e) {
-            console.error(`Error reading ${file}:`, e);
-          }
+  for (const dataDir of archiveFolders) {
+    const files = fs.readdirSync(dataDir);
+    for (const file of files) {
+      if (file.endsWith('.json')) {
+        try {
+          const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
+          const article = JSON.parse(content);
+          // Exclude content field for list view (saves bandwidth)
+          const { content: _, ...articleMeta } = article;
+          articles.push(articleMeta);
+        } catch (e) {
+          console.error(`Error reading ${file}:`, e);
         }
       }
     }
+  }
 
-    articles.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+  // Sort by date (newest first)
+  articles.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 
-    return NextResponse.json(articles);
+  cachedArticles = articles;
+  cacheTimestamp = now;
+
+  return articles;
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const limit = parseInt(searchParams.get('limit') || '20', 10);
+    const offset = parseInt(searchParams.get('offset') || '0', 10);
+
+    const allArticles = loadArticles();
+
+    if (allArticles.length === 0) {
+      return NextResponse.json({
+        articles: [],
+        total: 0,
+        hasMore: false
+      });
+    }
+
+    // Apply pagination
+    const paginatedArticles = allArticles.slice(offset, offset + limit);
+    const hasMore = offset + limit < allArticles.length;
+
+    return NextResponse.json({
+      articles: paginatedArticles,
+      total: allArticles.length,
+      hasMore,
+    });
   } catch (error) {
     console.error('Error reading articles:', error);
     return NextResponse.json(
@@ -46,4 +87,4 @@ export async function GET() {
       { status: 500 }
     );
   }
-} 
+}
