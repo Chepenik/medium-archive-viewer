@@ -2,7 +2,7 @@
 
 A personal archive of 1,400+ articles from my [Medium](https://medium.com/@chepenikconor) writing journey.
 
-**Live site:** [chepenik.com](https://chepenik.com)
+**Live site:** [chepsblog.com](https://chepsblog.com)
 
 ## Why This Exists
 

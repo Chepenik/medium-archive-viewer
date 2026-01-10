@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://chepenik.com/sitemap.xml
+Sitemap: https://chepsblog.com/sitemap.xml
