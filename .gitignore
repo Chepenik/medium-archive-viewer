@@ -52,16 +52,36 @@ __pycache__/
 *.pyd
 *.pkl
 
-# Hugging Face datasets
+# ===========================================
+# AI/ML Training Artifacts (regeneratable)
+# ===========================================
+
+# ChromaDB vector database (created by embed_articles.py)
+# This contains the vectorized embeddings of all articles
+# Regenerate with: python3 embed_articles.py
+chroma_db/
+
+# Training datasets (created by prepare_medium_data.py)
+# These are the formatted training examples for fine-tuning
+# Regenerate with: python3 prepare_medium_data.py --all
+my_medium_dataset/
 my_medium_dataset_all/
 medium_preview.jsonl
 
-# Training outputs (models, checkpoints, gguf files)
+# Fine-tuned model outputs (created by finetune_mlx.py)
+# These contain the trained LoRA adapters and fused models
+# Regenerate with: python3 finetune_mlx.py
+fine_tuned_model/
 my_personal_ai*/
 *.gguf
+*.safetensors
 
 # External tools (can be re-cloned as needed)
 llama.cpp/
 
 # Jupyter notebooks checkpoints (if you ever use them)
 .ipynb_checkpoints/
+
+# Model downloads cache (can be large)
+*.bin
+models/
